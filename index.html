@@ -5,14 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/mobile-menu.css" >
     <link rel="icon" href="./favicon.ico" />
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
+    <nav id="mobile-menu" class="mobile-menu d-flex w-100 h-100 hidden">
+      <img id="close-menu" class="h-close-btn" src="./media/svg/close.svg" alt="close">
+      <ul>
+        <li id='portfolio'>
+          <a class="h-link dec-none" href="#portfolio">
+            <p>Portfolio</p>
+          </a>
+          <div class="h-line3"></div>
+        </li>
+        <li>
+          <a id="about" class="h-link dec-none" href="#about-me">
+            <p>About</p>
+          </a>
+          <div class="h-line3"></div>
+        </li>
+        <li>
+          <a class="h-link dec-none" href="#contat">
+            <p>Contact</p>
+          </a>
+          <div class="h-line3"></div>
+        </li>
+      </ul>
+    </nav>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
       <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
+        <i id="h-menu" class="fas fa-bars"></i>
       </button>
       <nav id="desktop-nav">
         <ul>
@@ -442,5 +466,6 @@
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
