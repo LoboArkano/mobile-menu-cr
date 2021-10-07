@@ -18,7 +18,7 @@
 
 To get a local copy up and running follow these simple example steps.
 ```
-  git@github.com:LoboArkano/mobile-menu-cr.git
+  git clone git@github.com:LoboArkano/mobile-menu-cr.git
 ```
 
 ### Prerequisites
