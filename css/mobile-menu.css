@@ -22,7 +22,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  flex-direction: column-reverse;
+  flex-direction: column;
   padding: 7%;
   background-color: #3e3c3c;
   z-index: 11;
@@ -31,7 +31,7 @@
 .mobile-menu .h-close-btn {
   cursor: pointer;
   width: max-content;
-  align-self: flex-start;
+  align-self: flex-end;
   margin-bottom: 34px;
 }
 
