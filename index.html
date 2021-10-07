@@ -10,21 +10,29 @@
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
-    <div id="mobile-menu" class="mobile-menu d-flex w-100 h-100 hidden">
+    <nav id="mobile-menu" class="mobile-menu d-flex w-100 h-100 hidden">
       <img class="h-close-btn" src="./media/svg/close.svg" alt="close" onclick="hideM()">
-      <a class="h-link dec-none" href="#portfolio" onclick="hideM()">
-        <p>Portfolio</p>
-      </a>
-      <div class="h-line3"></div>
-      <a class="h-link dec-none" href="#about-me" onclick="hideM()">
-        <p>About</p>
-      </a>
-      <div class="h-line3"></div>
-      <a class="h-link dec-none" href="#contact" onclick="hideM()">
-        <p>Contact</p>
-      </a>
-      <div class="h-line3"></div>
-    </div>
+      <ul>
+        <li>
+          <a class="h-link dec-none" href="#portfolio" onclick="hideM()">
+            <p>Portfolio</p>
+          </a>
+        </li>
+        <div class="h-line3"></div>
+        <li>
+          <a class="h-link dec-none" href="#about-me">
+            <p>About</p>
+          </a>
+        </li>
+        <div class="h-line3"></div>
+        <li>
+          <a class="h-link dec-none" href="#contat" onclick="hideM()">
+            <p>Contact</p>
+          </a>
+        </li>
+        <div class="h-line3"></div>
+      </ul>
+    </nav>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
       <button type="button" class="menu-bars">
