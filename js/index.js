@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 const showM = () => {
   const mobileMenu = document.getElementById('mobile-menu');
 
@@ -10,3 +9,8 @@ const hideM = () => {
 
   mobileMenu.classList.add('hidden');
 };
+
+document.getElementById('h-menu').addEventListener('click', showM);
+document.getElementById('portfolio').addEventListener('click', hideM);
+document.getElementById('about').addEventListener('click', hideM);
+document.getElementById('close-menu').addEventListener('click', hideM);
