@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/mobile-menu.css">
+    <link rel="stylesheet" href="./css/mobile-menu.css" >
     <link rel="icon" href="./favicon.ico" />
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
     <div id="mobile-menu" class="mobile-menu d-flex w-100 h-100 hidden">
-      <img class="h-close-btn" src="./media/svg/close.svg" alt="close">
-      <a class="h-link dec-none" href="#project">
+      <img class="h-close-btn" src="./media/svg/close.svg" alt="close" onclick="hideM()">
+      <a class="h-link dec-none" href="#project" onclick="hideM()">
         <p>Portfolio</p>
       </a>
       <div class="h-line3"></div>
-      <a class="h-link dec-none" href="#about-me">
+      <a class="h-link dec-none" href="#about-me" onclick="hideM()">
         <p>About</p>
       </a>
       <div class="h-line3"></div>
-      <a class="h-link dec-none" href="#contact">
+      <a class="h-link dec-none" href="#contact" onclick="hideM()">
         <p>Contact</p>
       </a>
       <div class="h-line3"></div>
@@ -28,7 +28,7 @@
     <header>
       <h1 id="logo">Aziz Mejri</h1>
       <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-bars" onclick="showM()"></i>
       </button>
       <nav id="desktop-nav">
         <ul>
@@ -458,5 +458,6 @@
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
